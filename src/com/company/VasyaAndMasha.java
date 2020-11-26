@@ -24,7 +24,7 @@ class VasyaAndMasha{
     }
 
     public static void main(String[] args) {
-        String text = "Вася заработал 5000 рублей, Петя - 7563 рубля, а Маша - 30000 рублей";
+        String text = "Вася заработал 50000 рублей, Петя - 7563 рубля, а Маша - 300 рублей";
         VasyaAndMasha vasyaAndMasha = new VasyaAndMasha(text);
         System.out.println(vasyaAndMasha.getTotal_salary());
     }
