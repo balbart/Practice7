@@ -23,7 +23,7 @@ public class Main {
                 case 1:
                     String text = "Вася заработал 5000 рублей, Петя - 7563 рубля, а Маша - 30000 рублей";
                     VasyaAndMasha vasyaAndMasha = new VasyaAndMasha(text);
-                    System.out.println(vasyaAndMasha.getSalary());
+                    System.out.println(vasyaAndMasha.getTotal_salary());
                     break;
                 case 2:
                     String s = in.nextLine();
